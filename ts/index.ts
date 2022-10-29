@@ -1,3 +1,4 @@
+// typescript must be compiled to js/index.js to run
 let heading = document.querySelector("h1");
 let img = document.querySelector("#myImage");
 
@@ -8,5 +9,6 @@ function changeHeadingColor() {
     var z = Math.floor(Math.random() * 256);
     var bgColor = "rgb(" + x + "," + y + "," + z + ")";
     heading.style.color = bgColor;
+    
 }
 img.addEventListener('load', changeHeadingColor);
