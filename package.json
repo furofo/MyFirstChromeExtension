@@ -1,0 +1,11 @@
+{
+  "name": "a",
+  "version": "0.0.1",
+  "description": "l",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

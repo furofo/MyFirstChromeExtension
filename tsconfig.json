@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "target": "ES2020",
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "noEmit": false,
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "./js",
+        "baseUrl": "./ts",
+        "jsx": "react",
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": [
+        "./js"
+    ],
+    "include": [
+        "./ts"
+    ]
+}
